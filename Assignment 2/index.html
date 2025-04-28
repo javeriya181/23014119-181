@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eventify - Event Management</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800 font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-900 text-white sticky top-0 z-50 px-8 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold">Eventify</div>
+    <ul class="flex gap-6">
+      <li><a href="AboutUS.html" class="hover:underline font-medium">About Us</a></li>
+      <li><a href="#events" class="hover:underline font-medium">Events</a></li>
+      <li><a href="#contact" class="hover:underline font-medium">Contact</a></li>
+      <li><a href="login.html" class="hover:underline font-medium">Login</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative flex items-center justify-center min-h-[calc(100vh-80px)] px-8 text-center text-white bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1200x600');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 max-w-3xl">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Plan Your Dream Event with Us</h1>
+      <p class="text-lg mb-6">From weddings to corporate events – we've got it all covered.</p>
+      <a href="events.html" class="inline-block bg-[#ff6f61] hover:bg-[#e55a4f] text-white px-6 py-3 rounded text-base font-medium transition-colors">Explore Events</a>
+    </div>
+  </section>
+
+  <!-- Events Section -->
+  <section id="events" class="bg-white text-center px-8 py-16">
+    <h2 class="text-3xl font-semibold mb-10">Upcoming Events</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Event Card -->
+      <div class="bg-gray-200 rounded-lg shadow hover:-translate-y-1 transition-transform overflow-hidden">
+        <img src="Wed1.jfif" alt="Event 1" class="w-full h-auto">
+        <h3 class="text-xl font-semibold mt-4">Wedding Gala</h3>
+        <p class="px-4 pb-4 text-sm text-gray-700">Join us for an elegant evening of love and celebration.</p>
+      </div>
+      <!-- Event Card -->
+      <div class="bg-gray-200 rounded-lg shadow hover:-translate-y-1 transition-transform overflow-hidden">
+        <img src="https://via.placeholder.com/300x200" alt="Event 2" class="w-full h-auto">
+        <h3 class="text-xl font-semibold mt-4">Corporate Meet 2025</h3>
+        <p class="px-4 pb-4 text-sm text-gray-700">Where innovation meets collaboration.</p>
+      </div>
+      <!-- Event Card -->
+      <div class="bg-gray-200 rounded-lg shadow hover:-translate-y-1 transition-transform overflow-hidden">
+        <img src="https://via.placeholder.com/300x200" alt="Event 3" class="w-full h-auto">
+        <h3 class="text-xl font-semibold mt-4">Music Festival</h3>
+        <p class="px-4 pb-4 text-sm text-gray-700">Feel the beat and enjoy live performances.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-gray-200 text-center px-8 py-16">
+    <h2 class="text-3xl font-semibold mb-6">About Us</h2>
+    <p class="max-w-3xl mx-auto text-lg">Eventify is a full-service event management company that turns your ideas into unforgettable experiences. With years of expertise, our team is passionate about delivering perfect events, big or small.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-gray-900 text-white text-center py-8">
+    <div class="space-y-2">
+      <p>&copy; 2025 Eventify. All rights reserved.</p>
+      <p>Contact us: info@eventify.com</p>
+    </div>
+  </footer>
+
+  
+
+</body>
+</html>
